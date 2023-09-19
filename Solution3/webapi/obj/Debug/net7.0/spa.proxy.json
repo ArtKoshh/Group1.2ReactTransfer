@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "",
+"LaunchCommand": "",
+"WorkingDirectory": "C:\\Users\\Artur\\OneDrive\\Skrivbord\\Group1.2ReactTransfer\\Solution3\\webapi",
+"MaxTimeoutInSeconds": "120"
+}
+}

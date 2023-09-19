@@ -1,0 +1,9 @@
+CREATE TABLE `news` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) DEFAULT NULL,
+  `summary` text,
+  `link` varchar(255) DEFAULT NULL,
+  `published` datetime DEFAULT NULL,
+  `topic` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=206 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
