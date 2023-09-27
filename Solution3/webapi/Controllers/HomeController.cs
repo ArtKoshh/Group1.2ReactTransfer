@@ -55,7 +55,7 @@ namespace webapi.Controllers
         public IActionResult LatestNews()
         {
             // Modify your SQL query to fetch the latest two articles
-            string connStr = "server=localhost;user=root;database=newsextractdb;port=3306;password=564564";
+            string connStr = "server=localhost;user=root;database=newsextractdb;port=3306;password=----";
             string sql = "SELECT title, summary, link, published FROM news ORDER BY published DESC LIMIT 2";
 
             // Create a list to hold the latest articles
